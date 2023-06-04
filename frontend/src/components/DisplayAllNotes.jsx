@@ -61,6 +61,7 @@ function DisplayAllNotes() {
         <>
         <Header/>
         <div className="container">
+            <br/><br/><br/>
             {/* now we have to map through the notes array having the json responces fetched from backend to display on frontend*/}
             {notes.map ((note) => 
                 <div key={note._id} className="note">

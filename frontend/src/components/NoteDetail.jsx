@@ -32,6 +32,7 @@ function NoteDetail(){
             <Header/>
             <div className="newHeader2">
             <h1>Let's see the details of your note here :)</h1>
+            <br/>
             </div>
             <main>
                 <section class="blog-single">

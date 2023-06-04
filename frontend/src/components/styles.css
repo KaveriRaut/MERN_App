@@ -12,9 +12,9 @@
   }
   
   header {
-    background-color: #f06bb2;
+    background-color: #54adde;
     margin: auto -16px;
-    padding: 16px 32px;
+    /* padding: 16px 32px; */
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
   }
   .newHeader{
@@ -73,7 +73,7 @@
     position: relative;
     float: right;
     margin-right: 10px;
-    color: #f06bb2;
+    color: #54adde;
     border: none;
     width: 36px;
     height: 36px;
@@ -104,7 +104,7 @@
     position: absolute;
     right: 18px;
     bottom: -18px;
-    background: #f06bb2;
+    background: #54adde;
     color: #fff;
     border: none;
     border-radius: 50%;
