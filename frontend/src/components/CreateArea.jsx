@@ -73,7 +73,7 @@ function CreateArea(props) {
           onClick={expand}
           onChange={handleChange}
           value={note.content}
-          placeholder="Take a note..."
+          placeholder="Write the content..."
           rows={isExpand ? "3" : "1"}
         />
         <Zoom in={isExpand}>

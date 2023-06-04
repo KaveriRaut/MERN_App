@@ -39,7 +39,7 @@ main section {
 main section.blog-single .blog {
     display: flex;
     flex-direction: row;
-    column-gap: 40px;
+    column-gap: 20px;
 }
 main section.blog-single .blog .blog-img {
     width: 50%;

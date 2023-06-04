@@ -114,4 +114,7 @@
     cursor: pointer;
     outline: none;
   }
-  
+
+  .newtextarea{
+    height: 150px;
+  }

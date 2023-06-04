@@ -67,11 +67,11 @@ function UpdateNote(props) {
                 onChange={handleChange}
                 placeholder="Title"
                 />
-                <textarea
+                <textarea className="newtextarea"
                 name="content"
                 value={note.content}
                 onChange={handleChange}
-                placeholder="Take a note..."
+                placeholder="Write the content..."
                 />
                 <Fab onClick={updateNote}> <EditIcon/></Fab>
             </form>

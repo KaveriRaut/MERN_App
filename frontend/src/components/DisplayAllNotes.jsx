@@ -5,12 +5,10 @@ import EditIcon from '@mui/icons-material/Edit';
 import Header from "./Header";
 import moment from "moment";
 import Footer from "./Footer";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import InfoIcon from '@mui/icons-material/Info';
 
 function DisplayAllNotes() {
-
-    const navigate = useNavigate();
 
     //create array of notes, setnotes is function to handle that notes array setting
     const [notes, setNotes] = useState([{
@@ -41,7 +39,6 @@ function DisplayAllNotes() {
             fetch(`/delete/${id}`)
             .then((res) => console.log(res))
             .catch((err) => console.log(err));
-            // navigate(`/display`);
         }
     }    
 
@@ -67,9 +64,9 @@ function DisplayAllNotes() {
             {/* now we have to map through the notes array having the json responces fetched from backend to display on frontend*/}
             {notes.map ((note) => 
                 <div key={note._id} className="note">
-                    <h1 style={{textAlign:'center', fontWeight:'bold', textOverflow:'ellipsis'}}>{note.title}</h1>
-                    <p style={{textOverflow:'ellipsis'}}>{note.content}</p>
-                    <p style={{textOverflow:'ellipsis'}}>Date: {moment(note.date).format("MMM Do YY")}</p>
+                    <h1 style={{textAlign:'center', fontWeight:'bold',fontSize:'20px', textOverflow:'ellipsis',whiteSpace:'nowrap', overflow:'hidden'}}>{note.title}</h1>
+                    <p style={{textOverflow:'ellipsis',whiteSpace:'nowrap', overflow:'hidden'}}>{note.content}</p>
+                    <p style={{textOverflow:'ellipsis',whiteSpace:'nowrap', overflow:'hidden'}}>Date: {moment(note.date).format("MMM Do YY")}</p>
                     <button onClick={() => deleteNotes(note._id)}>
                         <DeleteIcon/>
                     </button>
@@ -82,7 +79,7 @@ function DisplayAllNotes() {
                 </div>
             )}
         </div>
-        <Footer></Footer>
+        <Footer/>
         </>
     );
     

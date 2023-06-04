@@ -21,7 +21,7 @@ function App() {
                 Attractive and user-friendly UI 🤩
                 <br/><br/>
                 Reveal secrets anonymously if you want 😜
-                <br/><br/><br/><br/>
+                <br/><br/>
       </div>
       </div>
       <Footer />

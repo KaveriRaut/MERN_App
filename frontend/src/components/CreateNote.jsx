@@ -4,8 +4,11 @@ import { useState } from "react";
 import CreateArea from "./CreateArea";
 import Header from "./Header";
 import Footer from "./Footer";
+import { useNavigate } from "react-router-dom";
 
 function CreateNote() {
+    
+    const navigate = useNavigate();
     const [notes, setNotes] = useState([]);
 
     //checking the title or content is null string or not and then adding the note with prevNotes
@@ -24,6 +27,7 @@ function CreateNote() {
                 return [...prevNotes, newNote];
               });
           }
+          navigate("/display");
         }
     }
   
@@ -59,6 +63,7 @@ function CreateNote() {
           })} */}
 
     </div>
+    <br/>
     <Footer/>
     </>
     );
