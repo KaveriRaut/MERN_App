@@ -1,0 +1,13 @@
+.link{
+    color: white;
+    padding: 10px;
+}
+.link:hover{
+    text-decoration: none;
+}
+.navbar-nav {
+    margin-left: auto;
+}
+.nav{
+ background-color: #f06bb2;
+}
