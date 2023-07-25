@@ -17,6 +17,7 @@ This project is a simple web application that allows users to keep track of thei
 - 🛠️ Express: A back-end framework for building APIs and handling HTTP requests.
 - 🛠️ React: A front-end library for building user interfaces.
 - 🛠️ Node.js: A JavaScript runtime for server-side development.
+- RESTful API
 
 ## Quick Start ⚙️:
 1. Install Node.js: Download and install Node.js from the official website.
@@ -33,5 +34,9 @@ This project is a simple web application that allows users to keep track of thei
 
 https://github.com/KaveriRaut/MERN_App/assets/97447480/0e6dc127-2d49-49ed-a5fc-7f1c912e6358
 
+https://github.com/KaveriRaut/MERN_App/assets/97447480/a6260f1d-3d4e-4f44-9fd5-6044093fc838
 
-
+## Coming Soon: New Functionalities Under Development 💻:
+- ✨ JWT Tokenisation for authentication and security
+- ✨ Search Functionality to search notes by title or by date of creation
+- ✨ Personalised Page for each user
