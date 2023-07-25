@@ -28,3 +28,10 @@ This project is a simple web application that allows users to keep track of thei
 7. Connect frontend to backend: Ensure React communicates with the Express server.
 8. Start the app: Run frontend and backend servers with npm start.
 9. Access the app: Open http://localhost:3000 in your browser.
+
+## Video Demo 📽️:
+
+https://github.com/KaveriRaut/MERN_App/assets/97447480/0e6dc127-2d49-49ed-a5fc-7f1c912e6358
+
+
+
