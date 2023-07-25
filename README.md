@@ -1,5 +1,5 @@
-# ✨Welcome to Full Stack MERN App Project ✨
-## 🔑Secret Keeper App🔑
+# 🔑Secret Keeper App🔑
+## ✨Welcome to Full Stack MERN App Project ✨
 
 Welcome to my Full Stack MERN Application entitled as "Secret Keeper App"! 
 This project is a simple web application that allows users to keep track of their tasks, appointments, and important notes. It's built using the MERN stack, which stands for MongoDB, Express, React, and Node.js.
