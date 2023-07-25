@@ -39,4 +39,5 @@ https://github.com/KaveriRaut/MERN_App/assets/97447480/a6260f1d-3d4e-4f44-9fd5-6
 ## Coming Soon: New Functionalities Under Development 💻:
 - ✨ JWT Tokenisation for authentication and security
 - ✨ Search Functionality to search notes by title or by date of creation
-- ✨ Personalised Page for each user
+- ✨ Dark Mode
+- ✨ Task priority option : low, medium, high
