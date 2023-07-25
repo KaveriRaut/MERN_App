@@ -1,5 +1,5 @@
 # ✨Welcome to Full Stack MERN App Project ✨
-## 🔑Secret Keeper Application🔑
+## 🔑Secret Keeper App🔑
 
 Welcome to my Full Stack MERN Application entitled as "Secret Keeper App"! 
 This project is a simple web application that allows users to keep track of their tasks, appointments, and important notes. It's built using the MERN stack, which stands for MongoDB, Express, React, and Node.js.
@@ -9,15 +9,15 @@ This project is a simple web application that allows users to keep track of thei
 - ✨ Read and view existing tasks, appointments, and notes
 - ✨ Update and edit tasks, appointments, and notes
 - ✨ Delete and remove tasks, appointments, and notes
-- ✨ Organize tasks, appointments, and notes into different categories
-- ✨ Responsive and mobile-friendly design
+- ✨ Anonymousely can reveal the secrets and have fun.
+- ✨ User friendly, Responsive and mobile-friendly design
 
 ## Technologies Used 💻:
 - 🛠️ MongoDB: A NoSQL database for storing task, appointment, and note data.
 - 🛠️ Express: A back-end framework for building APIs and handling HTTP requests.
 - 🛠️ React: A front-end library for building user interfaces.
 - 🛠️ Node.js: A JavaScript runtime for server-side development.
-- RESTful API
+- 🛠️ RESTful API: To connect and interact with web services using simple URLs
 
 ## Quick Start ⚙️:
 1. Install Node.js: Download and install Node.js from the official website.
