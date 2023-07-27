@@ -1,0 +1,33 @@
+Adding your "Secret Keeper App" project to your resume can showcase your technical skills and development experience. Here's a suggested format to include the project:
+
+Project Title: "Secret Keeper App"
+
+Project Description:
+
+Briefly describe the purpose and functionality of the app, such as "A full-stack MERN (MongoDB, Express, React, Node.js) application for managing tasks and notes."
+Tech Stack:
+
+List the technologies and frameworks used in the project, such as "React JS, Material UI, Node.js, Express.js, RESTful API, MongoDB."
+Key Features:
+
+Highlight the essential features of the app in bullet points, e.g.,
+"User-friendly interface for easy task and note management."
+"Effortless note creation and organization by date of creation."
+"Seamless viewing and modification of detailed note descriptions."
+"Ability to delete notes once tasks are completed."
+Personal Contribution:
+
+If applicable, mention your specific role and responsibilities in the project, such as "Developed the front-end using React JS and Material UI" or "Implemented the back-end RESTful API with Node.js and Express.js."
+Impact and Outcome:
+
+Describe the positive impact the app had or could have on users, e.g., "Streamlined task management and improved organization for users."
+GitHub Repository:
+
+If your project is open-source and available on GitHub, include the link to the repository to showcase your code and project in more detail.
+Remember to keep the description concise and use action-oriented language to demonstrate your skills effectively. Adding your "Secret Keeper App" project to your resume can help you stand out to potential employers and demonstrate your practical experience with the MERN stack and full-stack development.
+
+
+
+
+
+
