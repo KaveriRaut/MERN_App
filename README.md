@@ -9,6 +9,7 @@ This project is a simple web application that allows users to keep track of thei
 - ✨ Read and view existing tasks, appointments, and notes
 - ✨ Update and edit tasks, appointments, and notes
 - ✨ Delete and remove tasks, appointments, and notes
+- ✨ Search various tasks and notes dynamically by their titles.
 - ✨ Anonymousely can reveal the secrets and have fun.
 - ✨ User friendly, Responsive and mobile-friendly design
 
@@ -38,6 +39,5 @@ https://github.com/KaveriRaut/MERN_App/assets/97447480/a6260f1d-3d4e-4f44-9fd5-6
 
 ## Coming Soon: New Functionalities Under Development 💻:
 - ✨ JWT Tokenisation for authentication and security
-- ✨ Search Functionality to search notes by title or by date of creation
 - ✨ Dark Mode
 - ✨ Task priority option : low, medium, high
