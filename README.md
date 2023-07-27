@@ -33,9 +33,10 @@ This project is a simple web application that allows users to keep track of thei
 
 ## Video Demo 📽️:
 
-https://github.com/KaveriRaut/MERN_App/assets/97447480/0e6dc127-2d49-49ed-a5fc-7f1c912e6358
 
-https://github.com/KaveriRaut/MERN_App/assets/97447480/a6260f1d-3d4e-4f44-9fd5-6044093fc838
+https://github.com/KaveriRaut/MERN_App/assets/97447480/9e0be7a5-1248-4e11-8ffd-6391c84765f5
+
+https://github.com/KaveriRaut/MERN_App/assets/97447480/83986fc9-22a0-45e6-b1db-f7d67778efb7
 
 https://github.com/KaveriRaut/MERN_App/assets/97447480/8faad4a6-a473-4f5c-b08a-b461ac1c3095
 
