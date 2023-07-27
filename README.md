@@ -37,6 +37,9 @@ https://github.com/KaveriRaut/MERN_App/assets/97447480/0e6dc127-2d49-49ed-a5fc-7
 
 https://github.com/KaveriRaut/MERN_App/assets/97447480/a6260f1d-3d4e-4f44-9fd5-6044093fc838
 
+https://github.com/KaveriRaut/MERN_App/assets/97447480/8faad4a6-a473-4f5c-b08a-b461ac1c3095
+
+
 ## Coming Soon: New Functionalities Under Development 💻:
 - ✨ JWT Tokenisation for authentication and security
 - ✨ Dark Mode
