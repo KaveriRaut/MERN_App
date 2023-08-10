@@ -31,14 +31,16 @@ This project is a simple web application that allows users to keep track of thei
 8. Start the app: Run frontend and backend servers with npm start.
 9. Access the app: Open http://localhost:3000 in your browser.
 
-## Video Demo 📽️:
+## SchreenShots 📽️:
+![1](https://github.com/KaveriRaut/MERN_App/assets/97447480/4960f785-cf1c-43cb-b7f4-cb58cacb8f78)
+![3](https://github.com/KaveriRaut/MERN_App/assets/97447480/89889143-2b3c-47ea-ba1f-308440c47f56)
+![4](https://github.com/KaveriRaut/MERN_App/assets/97447480/aecf4881-b5d5-4d10-8b50-891426fc7d24)
+![2](https://github.com/KaveriRaut/MERN_App/assets/97447480/fcc3fc22-9065-408e-a814-64ee39f19e15)
 
+![6](https://github.com/KaveriRaut/MERN_App/assets/97447480/1dca68ea-e3d1-459d-8f7d-329a371cac55)
+![8](https://github.com/KaveriRaut/MERN_App/assets/97447480/de5f54c9-680d-42f0-8268-983c1178354b)
 
-https://github.com/KaveriRaut/MERN_App/assets/97447480/9e0be7a5-1248-4e11-8ffd-6391c84765f5
-
-https://github.com/KaveriRaut/MERN_App/assets/97447480/83986fc9-22a0-45e6-b1db-f7d67778efb7
-
-https://github.com/KaveriRaut/MERN_App/assets/97447480/8faad4a6-a473-4f5c-b08a-b461ac1c3095
+![5](https://github.com/KaveriRaut/MERN_App/assets/97447480/e63cda9a-69b8-4519-8477-3b8700f93db0)
 
 
 ## Coming Soon: New Functionalities Under Development 💻:
