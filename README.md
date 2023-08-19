@@ -5,6 +5,7 @@ Welcome to my Full Stack MERN Application entitled as "Secret Keeper App"!
 This project is a simple web application that allows users to keep track of their tasks, appointments, and important notes. It's built using the MERN stack, which stands for MongoDB, Express, React, and Node.js.
 
 ## Features 🔍 :
+- ✨ JWT Tokenisation for authentication and security
 - ✨ Create and add new tasks, appointments, and notes
 - ✨ Read and view existing tasks, appointments, and notes
 - ✨ Update and edit tasks, appointments, and notes
@@ -44,6 +45,5 @@ This project is a simple web application that allows users to keep track of thei
 
 
 ## Coming Soon: New Functionalities Under Development 💻:
-- ✨ JWT Tokenisation for authentication and security
 - ✨ Dark Mode
 - ✨ Task priority option : low, medium, high
