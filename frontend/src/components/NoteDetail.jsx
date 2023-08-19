@@ -20,11 +20,19 @@ function NoteDetail(){
     //to make the fetch call to api to fetch the single post ke details
     useEffect( () => {
         // console.log(id);
-        fetch(`/detail/${id}`).then( res => {
-            if(res.ok) {
-                return res.json()
-            }
-        }).then(jsonRes => setNote(jsonRes));
+        //take local Token first to validate user
+      const localToken = localStorage.getItem("jsonwebtoken");
+
+      fetch(`/detail/${id}`,{
+        method: 'GET',
+        headers:{
+          'Authorization': `Bearer ${localToken}`
+        }
+      })
+      .then(response=> response.json())
+      .then(note=>{
+        setNote(note)
+      }).catch(err=>{console.log(err)})
     },[])
 
     return(

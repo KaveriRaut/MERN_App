@@ -6,7 +6,7 @@ const mongoose = require("mongoose");
 require('dotenv/config');
 
 app.use(cors());
-app.use(express.json());
+app.use(express.json());//convert body into json directly->yeh bhi middleware
 
 //connect to mongoDB => URL to database name at end//special characters in password should be encoded***
 // mongoose.connect("mongodb+srv://kaveriraut:RautK@cluster0.kgmoaya.mongodb.net/KeeperDB");
@@ -14,7 +14,14 @@ mongoose.connect(process.env.DB_CONNECTION_URL);
 
 //require the routes //this is 'middleware' means what action to be performed when we hit the specified routes i.e. url
 //require Routes '/noteRoute' + having middleware logic to handle each route action
+// app.use((req,res,next)=>{
+//     console.log("HTTP Method - "+req.method+",URL -"+req.url);
+//     next();
+// })
+
 app.use("/",require("./routes/noteRoute"));
+
+app.use("/users",require("./routes/userRoute"));
 
 app.get("/",(req,res)=>{
     res.send("Express server is running here");

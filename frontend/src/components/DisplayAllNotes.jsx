@@ -21,9 +21,21 @@ function DisplayAllNotes() {
   }, []);
 
   const getAllNotes = async()=>{
-    let result = await fetch('http://localhost:3001/display');
-    result = await result.json();
-    setNotes(result);
+    //take local Token first to validate user
+    const localToken = localStorage.getItem("jsonwebtoken");
+
+    await fetch('http://localhost:3001/display',{
+      method: 'GET',
+      headers:{
+        'Authorization': `Bearer ${localToken}`
+      }
+    })
+    .then(response=> response.json())
+    .then(notes =>{
+      console.log(notes);
+      setNotes(notes);
+    })
+
   }
 
   //deleting the note from DB using note ki id
@@ -34,9 +46,21 @@ function DisplayAllNotes() {
     const answer = window.confirm("Are you sure about deleting the note?");
     if (!answer) return;
     else {
-      fetch(`/delete/${id}`)
-        .then((res) => console.log(res))
-        .catch((err) => console.log(err));
+      ///try like axios.delete(`/delete/${id}`)
+      //take local Token first to validate user
+      const localToken = localStorage.getItem("jsonwebtoken");
+
+      fetch(`/delete/${id}`,{
+        method: 'DELETE',
+        headers:{
+          'Authorization': `Bearer ${localToken}`
+        }
+      })
+      .then(response=> response.json())
+      .then(note=>{
+        console.log(note);
+      }).catch(err=>{console.log(err)})
+      window.location.reload()
     }
   }
 
@@ -45,24 +69,26 @@ function DisplayAllNotes() {
     console.log(id);
   }
 
-  //to see the detail note with given id=>this task of fetching data of single note is written in NoteDetail.jsx using useEffect hooks
-  //delete this code now################################
-  // function detailNotes(id){
-  //     console.log(id);
-  //     fetch(`/detail/${id}`)
-  //     .then((res)=>console.log(res))
-  //     .catch((err)=> console.log(err));
-  // }
 
   const handleSearch = async(event)=>{
     // console.log(event.target.value);
     let key = event.target.value;
     if(key){
-        let searchResult = await fetch(`http://localhost:3001/search/${key}`);
-        searchResult = await searchResult.json();
-        if(searchResult){
-            setNotes(searchResult);
-        }
+        //take local Token first to validate user
+        const localToken = localStorage.getItem("jsonwebtoken");
+      
+        await fetch(`http://localhost:3001/search/${key}`,{
+          method: 'GET',
+          headers:{
+            'Authorization': `Bearer ${localToken}`
+          }
+        })
+        .then(response=> response.json())
+        .then(notes=>{
+          console.log(notes);
+          setNotes(notes);
+        }).catch(err=>{console.log(err)})
+
     }else{
         getAllNotes();
     }

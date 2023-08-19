@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import axios from "axios";
 import AddIcon from '@mui/icons-material/Add';
 import Fab from '@mui/material/Fab';
 import { Zoom } from '@mui/material';
@@ -50,9 +49,24 @@ function CreateArea(props) {
         content: note.content,
         date: moment(note.date).format("MMM Do YY")
       }  
-      axios.post("http://localhost:3001/create",newNote); //creating POST route "/create" in backend also to store newNote in MongoDB
-      event.preventDefault();
-    }
+       //take local Token first to validate user
+       const localToken = localStorage.getItem("jsonwebtoken");
+
+       fetch("http://localhost:3001/create",{
+         method: 'POST',
+         headers:{
+           'Authorization': `Bearer ${localToken}`,
+           'Content-Type': 'application/json' // Set the content type***imp
+         },
+         body: JSON.stringify(newNote) // Convert the object to JSON
+       })
+       .then(response=> response.json())
+       .then(note=>{
+         console.log(note);
+       }).catch(err=>{console.log(err)})
+
+       window.location.pathname = "/display";
+     } 
   }
 
   function expand(){

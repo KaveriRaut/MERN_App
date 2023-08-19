@@ -27,7 +27,6 @@ function CreateNote() {
                 return [...prevNotes, newNote];
               });
           }
-          navigate("/display");
         }
     }
   

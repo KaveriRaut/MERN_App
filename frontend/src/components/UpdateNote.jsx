@@ -19,12 +19,23 @@ function UpdateNote(props) {
     //to fetch the previous note ke details as it is -> to update that note of given id taken from url using useParams
     useEffect( () => {
         async function fetchData(){
-        const response = await axios.get(`/detail/${id}`)
+
+          //take local Token first to validate user
+        const localToken = localStorage.getItem("jsonwebtoken");
+      
+        await fetch(`/detail/${id}`,{
+          method: 'GET',
+          headers:{
+            'Authorization': `Bearer ${localToken}`
+          }
+        })
+        .then(response=> response.json())
         .then((jsonRes) => setNote({
-          title: jsonRes.data.title,
-          content: jsonRes.data.content,
-          date: jsonRes.data.date  
-        }));
+          title: jsonRes.title,
+          content: jsonRes.content,
+          date: jsonRes.date  
+        }))
+        .catch(err=>{console.log(err)})
     }    
     fetchData();
     },[id])
@@ -50,9 +61,25 @@ function UpdateNote(props) {
             content: note.content,
             date: Date.now
         };
-        await axios.put(`/update/${id}`,newNote); //creating POST route "/create" in backend also to store newNote in MongoDB
-        navigate(`/display/${id}`);
-        event.preventDefault();
+
+      //take local Token first to validate user
+      const localToken = localStorage.getItem("jsonwebtoken");
+
+      fetch(`/update/${id}`,{
+        method: 'PUT',
+        headers:{
+          'Authorization': `Bearer ${localToken}`,
+          'Content-Type': 'application/json' // Set the content type***imp
+        },
+        body: JSON.stringify(newNote) // Convert the object to JSON
+      })
+      .then(response=> response.json())
+      .then(note=>{
+        console.log(note);
+        setNote(note);
+      }).catch(err=>{console.log(err)})
+
+      window.location.pathname = "/display";
   };
 
   return (
