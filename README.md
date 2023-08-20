@@ -33,7 +33,13 @@ This project is a simple web application that allows users to keep track of thei
 9. Access the app: Open http://localhost:3000 in your browser.
 
 ## SchreenShots 📽️:
-![1](https://github.com/KaveriRaut/MERN_App/assets/97447480/4960f785-cf1c-43cb-b7f4-cb58cacb8f78)
+![1](https://github.com/KaveriRaut/MERN_App/assets/97447480/31d7e0c4-f551-42c3-98ce-36b74037cbb3)
+![3](https://github.com/KaveriRaut/MERN_App/assets/97447480/8f02da14-fe54-40f8-99f8-7a9457ec3be4)
+![2](https://github.com/KaveriRaut/MERN_App/assets/97447480/5712d9dd-9b2c-4d23-8c2c-b2c02f65e7ba)
+
+![4](https://github.com/KaveriRaut/MERN_App/assets/97447480/55ba3538-34f1-4e03-9e8b-e8648f8d260a)
+
+
 ![3](https://github.com/KaveriRaut/MERN_App/assets/97447480/89889143-2b3c-47ea-ba1f-308440c47f56)
 ![4](https://github.com/KaveriRaut/MERN_App/assets/97447480/aecf4881-b5d5-4d10-8b50-891426fc7d24)
 ![2](https://github.com/KaveriRaut/MERN_App/assets/97447480/fcc3fc22-9065-408e-a814-64ee39f19e15)
