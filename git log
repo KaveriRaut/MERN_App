@@ -1,0 +1,108 @@
+[33mcommit 1e25e5c183de41f0fc1c1cbaaf71dc57b7efec49[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: KaveriRaut <rautkaveri02@gmail.com>
+Date:   Sun Aug 20 01:14:28 2023 +0530
+
+    added jwt authentication and updated routes, middleware,controller
+
+[33mcommit d1824380e81c10ec38d1593900d3bb9b06d01fb8[m[33m ([m[1;31morigin/main[m[33m)[m
+Merge: bc2b39b 312cdac
+Author: KaveriRaut <rautkaveri02@gmail.com>
+Date:   Thu Jul 27 17:24:17 2023 +0530
+
+    Merge branch 'main' of https://github.com/KaveriRaut/MERN_App
+
+[33mcommit bc2b39b2cc869979cb40dc5ead95e9754968ad1f[m
+Author: KaveriRaut <rautkaveri02@gmail.com>
+Date:   Thu Jul 27 17:19:10 2023 +0530
+
+    2nd commit : Search feature added
+
+[33mcommit 312cdac25b727408280431c4b9f2aaf6cdafb836[m
+Author: Kaveri Raut <97447480+KaveriRaut@users.noreply.github.com>
+Date:   Thu Jul 27 00:48:58 2023 +0530
+
+    Delete mongo.png
+
+[33mcommit 326c8a5b7930e3e357118b80ac07b80838f51788[m
+Author: Kaveri Raut <97447480+KaveriRaut@users.noreply.github.com>
+Date:   Wed Jul 26 01:46:22 2023 +0530
+
+    Update README.md
+
+[33mcommit cf8b1ad28f3912b0107dda764f1b5d41b553608b[m
+Author: Kaveri Raut <97447480+KaveriRaut@users.noreply.github.com>
+Date:   Wed Jul 26 00:58:38 2023 +0530
+
+    Update README.md
+
+[33mcommit 07c2137552f41a5de362563f9582b21f9f03b366[m
+Author: Kaveri Raut <97447480+KaveriRaut@users.noreply.github.com>
+Date:   Wed Jul 26 00:55:27 2023 +0530
+
+    Update README.md
+
+[33mcommit 4e1e4034b3b17371a827976465950f3c2ea1bc85[m
+Author: Kaveri Raut <97447480+KaveriRaut@users.noreply.github.com>
+Date:   Wed Jul 26 00:51:18 2023 +0530
+
+    Update README.md
+
+[33mcommit b9c52f7907843fe079b70aa503c74de55ab5f550[m
+Author: Kaveri Raut <97447480+KaveriRaut@users.noreply.github.com>
+Date:   Wed Jul 26 00:41:43 2023 +0530
+
+    Update README.md
+
+[33mcommit 7546cc552fa379480266a7c08666cc45e5625d1b[m
+Author: Kaveri Raut <97447480+KaveriRaut@users.noreply.github.com>
+Date:   Tue Jul 25 18:17:14 2023 +0530
+
+    Update README.md
+
+[33mcommit 5dc0857fe4d453321aa958174e9f53269c641515[m
+Author: Kaveri Raut <97447480+KaveriRaut@users.noreply.github.com>
+Date:   Tue Jul 25 18:07:41 2023 +0530
+
+    Update README.md
+
+[33mcommit c29d5f45299673e319ba5dc64d49fa4a888a89e0[m
+Author: Kaveri Raut <97447480+KaveriRaut@users.noreply.github.com>
+Date:   Tue Jul 25 18:05:44 2023 +0530
+
+    Update README.md
+
+[33mcommit f094917387c1f806a3be948638f6fd64bc6edc42[m
+Author: Kaveri Raut <97447480+KaveriRaut@users.noreply.github.com>
+Date:   Tue Jul 25 18:01:58 2023 +0530
+
+    Update README.md
+
+[33mcommit 51cbde01ccf88988066864c54d9e018d53f7538b[m
+Author: Kaveri Raut <97447480+KaveriRaut@users.noreply.github.com>
+Date:   Tue Jul 25 18:01:23 2023 +0530
+
+    Update README.md
+
+[33mcommit 0483d022db465d0ada1fcb80a8880c993fc8037d[m
+Author: Kaveri Raut <97447480+KaveriRaut@users.noreply.github.com>
+Date:   Tue Jul 25 17:50:00 2023 +0530
+
+    Create README.md
+
+[33mcommit b7280a456760fd792a379cfb85736e493d866ab3[m
+Author: KaveriRaut <rautkaveri02@gmail.com>
+Date:   Mon Jun 5 00:36:56 2023 +0530
+
+    design modified: third commit
+
+[33mcommit cf28fa9992dcb23e4dd320ed241cd56f0a08fe2d[m
+Author: KaveriRaut <rautkaveri02@gmail.com>
+Date:   Sun Jun 4 23:27:13 2023 +0530
+
+    design modified: second commite
+
+[33mcommit 9492e7607ed6fa9685f9bc244e2e89e5c22bb264[m
+Author: KaveriRaut <rautkaveri02@gmail.com>
+Date:   Sun Jun 4 19:25:39 2023 +0530
+
+    initial commit

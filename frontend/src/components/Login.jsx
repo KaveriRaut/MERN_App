@@ -1,13 +1,10 @@
 import React, { useState } from "react";
 import axios from "axios";
-// import { useCookies } from "react-cookie";
 
 const Login = () => {
   const [username, setUsername] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-
-  // const [cookies,setCookies] = useCookies(["access_token"]);
 
   const handleUsernameChange = (event) => {
     setUsername(event.target.value);
@@ -32,8 +29,8 @@ const Login = () => {
     //catch the response token that we get back from login=>access token into cookies
       .then((response) => {
         console.log(response);
-        if (response) {
-          const token = response.data.token;
+        const token = response.data.token;
+        if (token) {
           localStorage.setItem("jsonwebtoken", token);//storing token in local storage
            //check if status got from backend is True or false, user exist or not
           if (response.data.status === true) {
@@ -43,6 +40,9 @@ const Login = () => {
             alert("Invalid!! Try again!!");
             window.location.pathname = "/login";
           }
+        }else{
+          alert("No User Found!!");
+          window.location.pathname = "/login";
         }
       })
       .catch((err) => {
